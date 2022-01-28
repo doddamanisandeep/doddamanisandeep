@@ -1,4 +1,26 @@
-gitinit
+git init- initlize(.git directory will create)
+once we a create a local file we can find 3 logical area's
+1.working area				2.staging area			3.local repository 			4.Remote Repository
+             ---------------------------->	     ---------------------->		------------------------>
+		git add FN				git commit -m "message"		    git push az master
+		git add .(All Files)			git commit -m "1st commit"	    git push sd new
+		git add *(All files)			git commit -m "commit demo"	    git push ss develpoment
+		git add *.java			
+		git add *.sh								    git remote add az link(establish connection between local
+ 											    and remote repository
+		git add *.py								    git remote -v (check linked status)
+		git add FN1 FN2								    git remote remove az(remove the link)
+
+
+Do configuration
+----------------
+git congig --global user.name "doddamanisandeep"
+git config --global user.email "sandeepdoddamani7@gmail.com"
+
+git config --global --list --> to check the configured email and username
+
+
+
 git add fn
 git commit -m ""
 git push
