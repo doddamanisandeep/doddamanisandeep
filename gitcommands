@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 git init - updated
 git add fn
 git commit -m ""
@@ -7,4 +8,97 @@ git remote -v
 git remote remove
 git branch 
 git branch -d branchname
+=======
+git init- initlize(.git directory will create)
+once we a create a local file we can find 3 logical area's
+1.working area				2.staging area			3.local repository 			4.Remote Repository
+             ---------------------------->	     ---------------------->		------------------------>
+		git add FN				git commit -m "message"		    git push az master
+		git add .(All Files)			git commit -m "1st commit"	    git push sd new
+		git add *(All files)			git commit -m "commit demo"	    git push ss develpoment
+		git add *.java			
+		git add *.sh								    git remote add az link(establish connection between local
+ 											    and remote repository
+		git add *.py								    git remote -v (check linked status)
+		git add FN1 FN2								    git remote remove az(remove the link)
+	     <-------------------------
+		git reset
+		git reset FN
+
+
+git log ---> to check the commit id and time
+git show commitID ---> to check how many commits under a ID
+
+Do configuration
+----------------
+git congig --global user.name "doddamanisandeep"
+git config --global user.email "sandeepdoddamani7@gmail.com"
+
+git config --global --list --> to check the configured email and username
+
+git revert commitID --> contet will delete and 
+
+git clean -n ---> to remove previously created files before commiting
+git clean -f --> to delete previously created files before commiting
+
+
+
+Day - 2
+----------------------------------------------------------
+.gitignore file
+
+IDE(Intigrated Development Enviroment)
+--------------------------------------
+Eclipse
+Myeclipse
+NetBeans
+Intelji
+
+Visul studio code
+
+
+.project
+.classpath
+.settings
+
+/node_modules
+
+
+Branch
+---------------------------
+Default branch is master
+
+create, rename dellete for all one command that is git branch
+
+git branch --> how many branches
+git branch -r --> to cheeck how many branches in remote repository
+git branch -a --> check both remote and local repo branches
+git checkout BN --> to swith other branch
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> new
 
