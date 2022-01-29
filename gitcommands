@@ -66,7 +66,44 @@ git checkout BN --> to swith other branch
 git merge  BN
 git checkout -b new BN --> create and switch to new branch --> git checkout -b stage
 git push az --all --> push all branches to remote repo
-git 
+git
+
+
+------------------------------------------------------------------------------------------------------------------
+TAGS
+-----------------------------
+
+
+once we relese the project we will create tags
+
+
+
+		Branch 					Tags
+
+*Branch is mutable				* Tag is immutable
+*git branch BN					* git tag TN
+*git branch -d BN				* git tag -d TN
+*git branch az --all(pushes all branches)	* git push az --tags
+*git branch az BN(perticular Branch(		* git push az tag TN
+
+
+Note: Branches we can create from any branch but tags we can only create from master branc bcz we are going to release project from master branch where code is ready for releaseh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
