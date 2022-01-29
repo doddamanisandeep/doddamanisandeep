@@ -64,6 +64,9 @@ git branch -r --> to cheeck how many branches in remote repository
 git branch -a --> check both remote and local repo branches
 git checkout BN --> to swith other branch
 git merge  BN
+git checkout -b new BN --> create and switch to new branch --> git checkout -b stage
+git push az --all --> push all branches to remote repo
+git 
 
 
 
