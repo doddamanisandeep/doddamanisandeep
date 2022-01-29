@@ -10,7 +10,13 @@ once we a create a local file we can find 3 logical area's
  											    and remote repository
 		git add *.py								    git remote -v (check linked status)
 		git add FN1 FN2								    git remote remove az(remove the link)
+	     <-------------------------
+		git reset
+		git reset FN
 
+
+git log ---> to check the commit id and time
+git show commitID ---> to check how many commits under a ID
 
 Do configuration
 ----------------
@@ -19,14 +25,58 @@ git config --global user.email "sandeepdoddamani7@gmail.com"
 
 git config --global --list --> to check the configured email and username
 
+git revert commitID --> contet will delete and 
+
+git clean -n ---> to remove previously created files before commiting
+git clean -f --> to delete previously created files before commiting
 
 
-git add fn
-git commit -m ""
-git push
-git remote add az link(https)
-git remote -v
-git remote remove
-git branch 
-git branch -d branchname
+
+Day - 2
+----------------------------------------------------------
+.gitignore file
+
+IDE(Intigrated Development Enviroment)
+--------------------------------------
+Eclipse
+Myeclipse
+NetBeans
+Intelji
+
+Visul studio code
+
+
+.project
+.classpath
+.settings
+
+/node_modules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
