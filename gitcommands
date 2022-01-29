@@ -62,7 +62,8 @@ create, rename dellete for all one command that is git branch
 git branch --> how many branches
 git branch -r --> to cheeck how many branches in remote repository
 git branch -a --> check both remote and local repo branches
-
+git checkout BN --> to swith other branch
+ 
 
 
 
