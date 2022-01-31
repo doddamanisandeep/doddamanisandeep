@@ -74,4 +74,81 @@ git branch -r --> to cheeck how many branches in remote repository
 git branch -a --> check both remote and local repo branches
 git checkout BN --> to swith other branch
 git merge  BN
+git checkout -b new BN --> create and switch to new branch --> git checkout -b stage
+git push az --all --> push all branches to remote repo
+git
+
+
+------------------------------------------------------------------------------------------------------------------
+TAGS
+-----------------------------
+
+
+once we relese the project we will create tags
+
+
+
+		Branch 					Tags
+
+*Branch is mutable				* Tag is immutable
+*git branch BN					* git tag TN
+*git branch -d BN				* git tag -d TN
+*git branch az --all(pushes all branches)	* git push az --tags
+*git branch az BN(perticular Branch(		* git push az tag TN
+
+
+Note: Branches we can create from any branch but tags we can only create from master branc bcz we are going to release project from master branch where code is ready for release
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Git Stash
+-------------------
+We use this command /feature when we got a requirment to work on master branch but we are not suppose to checkout from one branch to other without commiting, In such case we need to take the backup of currently working code then we use a command to take backup the code is called "STASH"
+
+git stash
+git stash list
+ stash{0}
+ stash{1}
+ stash{2}
+
+
+git stash apply----> latest one will apply
+
+git stash apply stash{0} --> specific stash will apply
+
+
+git stash drop --> delete latest one
+giit stash drop Stash{0} --> delete specfic1
+
+git stash pop -->  apply and delete
+git stash pop stash {0}--> specific
+
+--------------------------------------------------------------------
+Git cherry-pick
+---------------------------------
+
+Git cherry-pick is the command used merge the specific commit using commit id
+
+git log 
+
+git cherry-pick commitID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
