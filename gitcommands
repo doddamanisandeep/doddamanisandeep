@@ -134,21 +134,23 @@ git log
 
 git cherry-pick commitID
 
+-----------------------------------------------------------------------------------
+
+git code
+-----------------
+
+how to get code from remote repo?
+ 
+*goto remote repo
+* click on code
+* copy https link
+* share the link
 
 
-
-
-
-
-
-
-
-
-
+git clone link(https)
 
 
 
 
 
  
-
