@@ -1,0 +1,27 @@
+ 
+
+whilee executing the shellscript passing the  values via cmnd promt is called command line argumrnt
+
+ex
+sh dbbackup.sh arg1 arg2 arg3 .....................arg'n' 
+
+whilee passing n number of args plz provide a space between args
+
+sh dbbackup.sh devdb /tmp/
+echo $1--> 1st arg value
+echo $2--> 2nd arg value
+echo $3--> 3rd arg value
+echo $12--> 12th arg value
+echo $#--> num of args
+echo $*--> all args 
+
+echo $0-->scriptfile name
+
+echo $$-->PID(process ID)
+echo $@-->all args
+date
+echo $?-->previous cmd exexuted or not
+
+iff yes the output is zero
+
+

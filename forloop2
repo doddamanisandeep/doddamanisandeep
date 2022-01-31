@@ -1,0 +1,7 @@
+echo "numbers from 100 to 1"
+
+for (( a=100;a>0;a--  ))
+do 
+echo $a
+done
+

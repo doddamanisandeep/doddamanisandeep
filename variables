@@ -1,0 +1,22 @@
+Variables is a storage location where we can store the value
+
+Two types
+_______________
+
+1) System Defined Variables
+env
+printenv
+
+2)user defined Variable
+------------------------
+
+int a=10:
+
+int b=20:
+
+String name = "Doddamani Group of companies"
+
+a=10
+b=10
+name=Doddamani group of company
+

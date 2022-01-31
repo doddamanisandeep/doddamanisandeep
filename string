@@ -1,0 +1,15 @@
+String
+---------------
+String is nothing but grup of characters  include in "" or ' '
+ex: "sandeep doddamani or 'sandeep doddamani'
+
+name= ""
+
+name=" Hi Team, My name is sandeep works in HCl"
+echo $name
+echo ${name}
+echo ${#name} --> length of variable
+echo ${name:20}--> ignore first 20 characters
+echo ${name:20:14}--> displays 14 character after ignoring 20 characters
+echo ${name:(-8)}--> last 8 characters
+

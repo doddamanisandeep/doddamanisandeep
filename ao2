@@ -1,0 +1,6 @@
+echo  "please pass the first number"
+read num1
+echo "please pass the 2nd number"
+read num2
+
+echo "the addition of the given nunbers is:"  `expr $num1 + $num2`

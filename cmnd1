@@ -1,0 +1,6 @@
+ echo "please pass the fst name"
+read
+echo "please pass the 2nd name"
+read
+
+echo "name's entered are:" $REPLY and $REPLY
